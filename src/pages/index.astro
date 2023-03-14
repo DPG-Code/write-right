@@ -1,0 +1,36 @@
+---
+import ButtonCopy from '../components/ButtonCopy.svelte';
+import ButtonSubmit from '../components/ButtonSubmit.svelte';
+import Footer from '../components/Footer.svelte';
+import Home from '../components/Home.svelte';
+import Textarea from '../components/Textarea.svelte';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Write Right">
+	<main class="w-full min-h-screen relative overflow-x-hidden flex justify-center">
+    <section class="py-16 px-8 flex flex-col items-center gap-20   xl:py-32 xl:gap-32">
+      <Home />
+      <article class="w-full flex flex-col items-center gap-4 relative   xl:gap-6">
+        <Textarea client:visible/>
+        <ButtonSubmit client:visible/>
+        <ButtonCopy client:visible/>
+      </article>
+      <Footer />
+    </section>
+  </main>
+</Layout>
+
+<style>
+  main::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: -5%;
+    width: 150%;
+    bottom: 5%;
+    background: url(/noise.webp) repeat,linear-gradient(83.21deg,#3245ff 0%,#bc52ee 100%);
+    background-blend-mode: overlay;
+    -webkit-mask-image: radial-gradient(rgba(0,0,0,.35),transparent 70%);
+  }
+</style>
