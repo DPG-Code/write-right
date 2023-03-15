@@ -2,6 +2,8 @@
 
 This project is a web application for correcting English texts.
 
+![Project previe image](https://res.cloudinary.com/dhpxqwsym/image/upload/w_1280,h_720,c_fill/v1678870284/documentations/writeright_sropss.png)
+
 ## Build whit:
 
 - Astro
