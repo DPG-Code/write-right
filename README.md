@@ -15,7 +15,7 @@
 <p></p>
 </div>
 
-![React.js Badge](https://img.shields.io/badge/Astro-FF3E00?logo=astro&logoColor=fff&style=flat)
+![Astro Badge](https://img.shields.io/badge/Astro-FF3E00?logo=astro&logoColor=fff&style=flat)
 ![GitHub stars](https://img.shields.io/github/stars/Dpg-Code/write-right)
 ![GitHub forks](https://img.shields.io/github/forks/Dpg-Code/write-right)
 ![GitHub PRs](https://img.shields.io/github/issues-pr/Dpg-Code/write-right)
